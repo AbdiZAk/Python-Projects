@@ -1,2 +1,2 @@
-This program gets the gist of a song using Musixmatch API to get %30 of the song 
-and then extracting each important phrase using Microsoft Azures's Cognative Services. 
+This program gets the gist of a song using the name of the song and artist the Musixmatch API gets %30 of the song 
+and then each important phrase in the song is extracted using Microsoft Azures's Cognative Services. 

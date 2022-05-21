@@ -1,2 +1,2 @@
 # Python-Projects
-This Repo contains projects I have worked on.
+This repo contains projects I have worked on.

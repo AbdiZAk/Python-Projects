@@ -79,9 +79,9 @@ def get_geo_address(search):
 
 def key_phrase(text):
     endpoint = os.getenv('endpoint')
-    key = "5565f2daac4b4993ab3370289ea359f8"
+    subscription_key = os.getenv("subscription_key")
     url = f'{endpoint}text/analytics/v3.0/keyphrases'
-    header = {'Ocp-Apim-Subscription-Key': key}
+    header = {'Ocp-Apim-Subscription-Key': subscription_key}
     payload = {"documents": [
         {"id": "3", "text": text}
     ]

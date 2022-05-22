@@ -2,12 +2,11 @@ import requests
 from dotenv import load_dotenv
 import os
 
-
 def config():
     load_dotenv()
 
-
 load_dotenv()
+
 
 google_api_key = os.getenv("google_api_key")
 
